@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "SnappLogin"
+  "defaultProject": "SnappLogin",
+  "cli": {
+    "analytics": false
+  }
 }

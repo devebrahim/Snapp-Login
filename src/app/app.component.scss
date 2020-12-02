@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Lalezar-Font';
+    src: url(../assets/Fonts/Lalezar-Font/TTF/Lalezar-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Yekan';
+    src: url(../assets/Fonts/Yekan/Yekan.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Iranian-Sans';
+    src: url(../assets/Fonts/Iranian-Sans/Iranian-Sans.ttf) format('truetype');
+}
+
 img {
     width: 100%;
     height: 625px;
@@ -21,11 +36,13 @@ img {
     top: 30%;
     left: 30%;
     border-radius: 10px;
+    font-family: 'Iranian-Sans';
 }
 
 .logo {
     top: 8%;
     left: 45%;
+    font-family: 'Lalezar-Font';
 }
 
 input {
@@ -39,15 +56,26 @@ button {
     margin-top: 56px;
     border-radius: 0px 0px 10px 10px;
     border: none;
+    font-family: 'Iranian-Sans';
 }
 
-.Link {
+.LinkFooter {
     top: 80%;
     left: 42%;
     border-radius: 10px;
     height: 20%;
+    font-family: 'yekan';
+    padding: 10px;
+    text-align: center;
+    ;
 }
 
-.Link div {
-    text-align: center;
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.link :hover {
+    color: #00d170;
 }

@@ -18,14 +18,17 @@ img {
     height: 625px;
 }
 
-.operator_user {
+.select_user {
     border-radius: 10px 0px 0px 0px;
     border-bottom: 1px solid white;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
 }
 
-.manager_user {
-    border-bottom: 1px solid white;
-    border-radius: 0px 10px 0px 0px;
+.select_user p {
+    background-color: #00d170;
+    margin-top: 6%;
 }
 
 .User {

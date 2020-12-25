@@ -2,22 +2,19 @@
 <div class="logo position-absolute col-2 h-25 text-white">
     <h1> !اسنپ</h1>
     <h4>کسب و کار</h4>
+    {{username}} {{password}}
 </div>
 <div class="login_box position-absolute h-50 col-5 bg-dark">
     <div class="User row bg-dark h-25">
-        <div class="operator_user col-6 bg-secondary h-75 text-white text-center p-4">
-            <a href="">
-                <h6>ورود اپراتور</h6>
-            </a>
+        <div class="select_user bg-secondary h-75">
+            <p>ورود اپراتور</p>
         </div>
-        <div class="manager_user col-6 h-75 text-white text-center p-4">
-            <a href="">
-                <h6>ورود مدیریت</h6>
-            </a>
+        <div class="select_user h-75">
+            <p>ورود مدیریت</p>
         </div>
     </div>
-    <input type="text" class="col-10 bg-dark text-secondary ml-5 mt-3" placeholder="نام کاربری">
-    <input type="text" class="col-10 bg-dark text-secondary ml-5 mt-5" placeholder="رمز عبور">
+    <input type="text" class="col-10 bg-dark text-secondary ml-5 mt-3" placeholder="نام کاربری" [(ngModel)]="username">
+    <input type="text" class="col-10 bg-dark text-secondary ml-5 mt-5" placeholder="رمز عبور" [(ngModel)]="password">
     <div class="row h-25"><button class="col-12 bg-secondary h-75 text-white">ورود</button></div>
 </div>
 <div class="LinkFooter position-absolute">
